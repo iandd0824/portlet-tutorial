@@ -106,7 +106,7 @@
                     jSecret.find('.secr-comments-list').html(html + cList);
                     var jCommentIcon = jSecret.find('.btn-popup-comment');
                     var jCommentNumb = jCommentIcon.find('.numb').text();
-                    jCommentIcon.find('.numb').text(jCommentNumb+cCounter);
+                    jCommentIcon.find('.numb').text(parseInt(jCommentNumb)+cCounter);
                 }
             }
         });
